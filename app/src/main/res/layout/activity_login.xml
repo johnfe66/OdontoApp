@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.johnfe.odontoapp.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:text="OdontoApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbTitulo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:fontFamily="serif-monospace"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmail"
+            android:singleLine="true"
+            android:hint="Email"
+            android:gravity="center_vertical|center"
+            android:layout_marginTop="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtPassword"
+            android:hint="Contraseña"
+            android:gravity="center_vertical|center"
+            android:singleLine="true"
+            android:layout_marginTop="30sp" />
+
+        <Button
+            android:text="Entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEntrar"
+            android:layout_marginTop="30sp" />
+
+        <Button
+            android:text="Registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegistroLogin"
+            android:layout_marginTop="30sp" />
+
+        <Button
+            android:text="Recordar Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnContrasena"
+            android:layout_marginTop="30sp" />
+    </LinearLayout>
+</ScrollView>

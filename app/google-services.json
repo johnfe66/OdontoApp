@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "865277104457",
+    "firebase_url": "https://odontoapp-57b60.firebaseio.com",
+    "project_id": "odontoapp-57b60",
+    "storage_bucket": "odontoapp-57b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865277104457:android:ac0c72abb19aa97f",
+        "android_client_info": {
+          "package_name": "com.johnfe.odontoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865277104457-bfv84l4vggov5ab6ppekhser6o0nltm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnfe.odontoapp",
+            "certificate_hash": "E755F44AF3D823BAE2C0EDC3E5A45973D5D07CFC"
+          }
+        },
+        {
+          "client_id": "865277104457-ndr2sgfafu8k2m2qariola9oeghse507.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiAA0OAi-0aefNpJ46GYkHJ583okprbjk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865277104457-ndr2sgfafu8k2m2qariola9oeghse507.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

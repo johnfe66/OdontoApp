@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="all"
+        >
+        <item
+            android:id="@+id/nada_ausente1"
+            android:title="Nada"
+            android:checkable="true"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/nada_ausente2"
+            android:title="Nada" />
+        <item
+            android:checkable="true"
+            android:id="@+id/nada_ausente3"
+            android:title="Nada" />
+        <item
+            android:checkable="true"
+            android:id="@+id/nada_ausente4"
+            android:title="Nada" />
+    </group>
+    <item
+        android:id="@+id/ausente"
+        android:title="Ausente"
+        android:checkable="true">
+        <menu>
+            <item
+                android:id="@+id/nada_ausente"
+                android:title="Nada" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sano"
+        android:title="Sano"
+        android:checkable="true">
+        <menu>
+            <item
+                android:id="@+id/nadaSano"
+                android:title="Nada" />
+        </menu>
+    </item>
+    <item
+                android:id="@+id/Desgaste_incisal"
+                android:title="Desgaste incisal" >
+                <menu>
+                    <item
+                        android:id="@+id/placa_incisal"
+                        android:title="Placa" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/desgaste_oclural"
+                android:title="Desgaste Oclural" >
+                <menu>
+                   <item
+                        android:id="@+id/placa_oclural"
+                        android:title="Placa" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/fractura_incisal"
+                android:title="Fractura incisal" >
+                <menu>
+                    <item
+                        android:id="@+id/resina_placa"
+                        android:title="Resina + placa" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/infraccion"
+                android:title="Infraccion" >
+                <menu>
+                    <item
+                        android:id="@+id/placa_infraccion"
+                        android:title="Placa" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/Fractura_tercio_medio"
+                android:title="Fractura tercio medio" >
+                <menu>
+                    <item
+                        android:id="@+id/corona_placa_medio"
+                        android:title="Corona + placa" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/fractura_tercio_cervical"
+                android:title="Fractura tercio cervical" >
+                <menu>
+                    <item
+                        android:id="@+id/corona_placa_cervical"
+                        android:title="Corona + placa" />
+                </menu>
+            </item>
+
+
+
+
+
+
+
+
+
+
+</menu>

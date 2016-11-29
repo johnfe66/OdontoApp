@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_map_dental"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.johnfe.odontoapp.MapDentalActivity"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="8"
+        android:rowCount="17"
+        >
+
+        <ImageButton android:id="@+id/ib22"
+
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="1"
+            android:layout_column="4">
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib13"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"            
+            
+            android:scaleType="fitXY"
+            android:layout_row="2"
+            android:layout_column="2">
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib23"
+
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"           
+            
+            android:scaleType="fitXY"
+            android:layout_row="2"
+            android:layout_column="5">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib25"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="4"
+            android:layout_column="6">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib14"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="3"
+            android:layout_column="2">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib24"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="3"
+            android:layout_column="5">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib12"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="1"
+            android:layout_column="3">
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib17"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="6"
+            android:layout_column="0">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib18"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="7"
+            android:layout_column="0">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib27"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="6"
+            android:layout_column="7">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib28"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="7"
+            android:layout_column="7">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib21"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="0"
+            android:layout_column="4">
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib11"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="0"
+            android:layout_column="3">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib15"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="4"
+            android:layout_column="1">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib26"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="5"
+            android:layout_column="6">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib16"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="5"
+            android:layout_column="1">
+
+        </ImageButton>
+
+
+
+        <ImageButton android:id="@+id/ib48"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="8"
+            android:layout_column="0">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib47"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="9"
+            android:layout_column="0">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib38"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="8"
+            android:layout_column="7">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib37"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="9"
+            android:layout_column="7">
+
+        </ImageButton>
+
+
+
+        <ImageButton android:id="@+id/ib46"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="10"
+            android:layout_column="1">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib45"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="11"
+            android:layout_column="1">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib36"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="10"
+            android:layout_column="6">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib35"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="11"
+            android:layout_column="6">
+
+        </ImageButton>
+
+
+
+        <ImageButton android:id="@+id/ib44"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="12"
+            android:layout_column="2">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib43"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="13"
+            android:layout_column="2">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib34"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="12"
+            android:layout_column="5">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib33"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="13"
+            android:layout_column="5">
+
+        </ImageButton>
+
+
+        <ImageButton android:id="@+id/ib42"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="14"
+            android:layout_column="3">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib41"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="15"
+            android:layout_column="3">
+
+        </ImageButton>
+
+        <ImageButton android:id="@+id/ib32"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="14"
+            android:layout_column="4">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib31"
+            app:srcCompat="@drawable/d11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="fitXY"             
+            android:layout_row="15"
+            android:layout_column="4">
+
+        </ImageButton>
+        <Button
+            android:text="Terminar cita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTerminarMapaDental"
+            android:layout_marginTop="30sp"
+            android:layout_row="16"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            />
+    </GridLayout>
+</ScrollView>
+</HorizontalScrollView>
